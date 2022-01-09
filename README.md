@@ -39,11 +39,11 @@ scale = 3
 canvas = np.zeros([120*scale,60*scale]).astype(np.float)
 
 # build an attetion matrixs as torch-output like
-task_num = 6
+token_num = 6
 case_num = 3
 layer_num = 2
 head_num = 4
-attention_map_mhml = [np.stack([make_attention_map_mh(head_num, task_num)]*case_num, 0) for _ in range(layer_num)] # 4cases' 3 layers attention, with 3 head per layer( 每个case相同）
+attention_map_mhml = [np.stack([make_attention_map_mh(head_num, token_num)]*case_num, 0) for _ in range(layer_num)] # 4cases' 3 layers attention, with 3 head per layer( 每个case相同）
 
 # run for getting visualization picture (on the canvas)
 import datetime
