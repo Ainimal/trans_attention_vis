@@ -14,11 +14,11 @@ This is a super simple visualization toolbox (script) for transformer attention 
 Just convert it to numpy array like this 👇
 ```python
 # build an attetion matrixs as torch-output like
-task_num = 6
+token_num = 6
 case_num = 3
 layer_num = 2
 head_num = 4
-attention_map_mhml = [np.stack([make_attention_map_mh(head_num, task_num)]*case_num, 0) for _ in range(layer_num)] # 4cases' 3 layers attention, with 3 head per layer( 每个case相同）
+attention_map_mhml = [np.stack([make_attention_map_mh(head_num, token_num)]*case_num, 0) for _ in range(layer_num)] # 4cases' 3 layers attention, with 3 head per layer( 每个case相同）
 _ = [print(i.shape) for i in attention_map_mhml]
 
 """
