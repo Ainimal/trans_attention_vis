@@ -5,7 +5,7 @@ This is a super simple visualization toolbox (script) for transformer attention 
 
 <!-- Line 1: Original Input -->
 <tr>
-<td><img src="https://github.com/WAMAWAMA/trans_attention_vis/blob/main/pic/demo.jpg" height="300" width="300" alt="input images"></td>
+<td><img src="https://github.com/WAMAWAMA/trans_attention_vis/blob/main/pic/demo.jpg" height="300" width="150" alt="input images"></td>
 </tr>
 
 </table>
@@ -79,7 +79,7 @@ show2D(attention_vis2[layer_index][case_index][3][0]**beta)
 
 <!-- Line 1: Original Input -->
 <tr>
-<td><img src="https://github.com/WAMAWAMA/trans_attention_vis/blob/main/pic/demo.jpg" height="300" width="300" alt="input images"></td>
+<td><img src="https://github.com/WAMAWAMA/trans_attention_vis/blob/main/pic/demo.jpg" height="300" width="150" alt="input images"></td>
 </tr>
 
 </table>
