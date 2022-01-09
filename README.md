@@ -1,5 +1,5 @@
 # Trans_attention_vis
-This is a simple visualization toolbox (script) for transformer attention visualization ✌
+This is a super simple visualization toolbox (script) for transformer attention visualization ✌
 
 <table>
 
@@ -10,8 +10,25 @@ This is a simple visualization toolbox (script) for transformer attention visual
 
 </table>
 
+## 1. How to prepare your attention matrix?
+Just convert it to numpy array like this 👇
+```python
+# build an attetion matrixs as torch-output like
+task_num = 6
+case_num = 3
+layer_num = 2
+head_num = 4
+attention_map_mhml = [np.stack([make_attention_map_mh(head_num, task_num)]*case_num, 0) for _ in range(layer_num)] # 4cases' 3 layers attention, with 3 head per layer( 每个case相同）
+_ = [print(i.shape) for i in attention_map_mhml]
 
-Just try the following lines of code 👇
+"""
+>>>(3, 4, 6, 6)
+(3, 4, 6, 6)
+"""
+
+```
+
+## 2. Just try the following lines of code 👇
 ```python
 
 # import function
@@ -58,3 +75,11 @@ show2D(attention_vis2[layer_index][case_index][1][0]**beta)
 show2D(attention_vis2[layer_index][case_index][2][0]**beta)
 show2D(attention_vis2[layer_index][case_index][3][0]**beta)
 ```
+<table>
+
+<!-- Line 1: Original Input -->
+<tr>
+<td><img src="https://github.com/WAMAWAMA/trans_attention_vis/blob/main/pic/demo.jpg" height="300" width="300" alt="input images"></td>
+</tr>
+
+</table>
