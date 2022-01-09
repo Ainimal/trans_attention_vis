@@ -1,2 +1,12 @@
-# trans_attention_vis
-A simple visualization toolbox (script) for transformer attention visualization ✌
+# Trans_attention_vis
+This is a simple visualization toolbox (script) for transformer attention visualization ✌
+
+Just try the following lines of code
+```python
+
+
+
+
+
+
+```
