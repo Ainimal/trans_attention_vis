@@ -27,6 +27,8 @@ This is a super simple visualization toolbox (script) for transformer attention 
 ## 1. How to prepare your attention matrix?
 Just convert it to numpy array like this 👇
 ```python
+from transformer_attention_visualization import make_attention_map_mh
+
 # build an attetion matrixs as torch-output like
 token_num = 6
 case_num = 3
