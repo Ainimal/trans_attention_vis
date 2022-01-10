@@ -97,18 +97,16 @@ for i in range(token_num):
     <th>token 2</th>
     <th>token 3</th>
     <th>token 4</th>
-    <th>token 5</th>
-    <th>token 6</th>
+    <th>···</th>
 </tr>
     
 <tr>
-    <td><img src="https://github.com/WAMAWAMA/trans_attention_vis/blob/main/pic/all.jpg" height="280" width="170" alt="input images"></td>
-    <td><img src="https://github.com/WAMAWAMA/trans_attention_vis/blob/main/pic/1.jpg" height="280" width="170" alt="input images"></td>
-    <td><img src="https://github.com/WAMAWAMA/trans_attention_vis/blob/main/pic/2.jpg" height="280" width="170" alt="input images"></td>
-    <td><img src="https://github.com/WAMAWAMA/trans_attention_vis/blob/main/pic/3.jpg" height="280" width="170" alt="input images"></td>
-    <td><img src="https://github.com/WAMAWAMA/trans_attention_vis/blob/main/pic/4.jpg" height="280" width="170" alt="input images"></td>
-    <td><img src="https://github.com/WAMAWAMA/trans_attention_vis/blob/main/pic/5.jpg" height="280" width="170" alt="input images"></td>
-    <td><img src="https://github.com/WAMAWAMA/trans_attention_vis/blob/main/pic/6.jpg" height="280" width="170" alt="input images"></td>
+    <td><img src="https://github.com/WAMAWAMA/trans_attention_vis/blob/main/pic/all.jpg" height="300" width="170" alt="input images"></td>
+    <td><img src="https://github.com/WAMAWAMA/trans_attention_vis/blob/main/pic/1.jpg" height="300" width="170" alt="input images"></td>
+    <td><img src="https://github.com/WAMAWAMA/trans_attention_vis/blob/main/pic/2.jpg" height="300" width="170" alt="input images"></td>
+    <td><img src="https://github.com/WAMAWAMA/trans_attention_vis/blob/main/pic/3.jpg" height="300" width="170" alt="input images"></td>
+    <td><img src="https://github.com/WAMAWAMA/trans_attention_vis/blob/main/pic/4.jpg" height="300" width="170" alt="input images"></td>
+        <th>···</th>
 </tr>
 
 </table>
