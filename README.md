@@ -5,7 +5,21 @@ This is a super simple visualization toolbox (script) for transformer attention 
 
 <!-- Line 1: Original Input -->
 <tr>
-<td><img src="https://github.com/WAMAWAMA/trans_attention_vis/blob/main/pic/all.jpg" height="300" width="170" alt="input images"></td>
+    <th>all tokens</th>
+    <th>token 1</th>
+    <th>token 2</th>
+    <th>token 3</th>
+    <th>token 4</th>
+    <th>···</th>
+</tr>
+    
+<tr>
+    <td><img src="https://github.com/WAMAWAMA/trans_attention_vis/blob/main/pic/all.jpg" height="300" width="170" alt="input images"></td>
+    <td><img src="https://github.com/WAMAWAMA/trans_attention_vis/blob/main/pic/1.jpg" height="300" width="170" alt="input images"></td>
+    <td><img src="https://github.com/WAMAWAMA/trans_attention_vis/blob/main/pic/2.jpg" height="300" width="170" alt="input images"></td>
+    <td><img src="https://github.com/WAMAWAMA/trans_attention_vis/blob/main/pic/3.jpg" height="300" width="170" alt="input images"></td>
+    <td><img src="https://github.com/WAMAWAMA/trans_attention_vis/blob/main/pic/4.jpg" height="300" width="170" alt="input images"></td>
+        <th>···</th>
 </tr>
 
 </table>
@@ -92,7 +106,7 @@ for i in range(token_num):
 
 <!-- Line 1: Original Input -->
 <tr>
-    <th>all</th>
+    <th>all tokens</th>
     <th>token 1</th>
     <th>token 2</th>
     <th>token 3</th>
