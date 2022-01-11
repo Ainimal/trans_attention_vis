@@ -1,6 +1,11 @@
 # Trans_attention_vis
 This is a super simple visualization toolbox (script) for transformer attention visualization ✌
 
+You can quickly visualize the attention via 👇 function 
+```python 
+from transformer_attention_visualization import draw_attention_map_multihead_multilayer, show2D
+show2D(draw_attention_map_multihead_multilayer(attention_matrix))
+```
 <table>
 
 <!-- Line 1: Original Input -->
