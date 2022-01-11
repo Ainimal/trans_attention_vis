@@ -147,7 +147,20 @@ def make_attention_map_mh(head_num, task_num):
 		return np.stack([np.stack([devideBySum(np.random.rand(task_num)) for _ in range(task_num)], 0) for _ in range(head_num)], 0)
 
 
+# show the visualization result
+import matplotlib.pyplot as plt
+def show2D(img2D, title = ''):
+    ax1 = plt.gca()
+    ax1.imshow(img2D,cmap=plt.cm.gray)
+    ax1.yaxis.tick_right()
+    ss = (scale) * 120 / (token_num - 1)
+    y_spots = [(i)*ss for i in range(token_num)]
+    ax1.set_yticks(y_spots)
+    ax1.set_yticklabels(['Token '+ str(i) for i in range(token_num)])
+    ax1.set_xticklabels([''])
 
+    plt.title(title)
+    plt.show()
 
 
 
