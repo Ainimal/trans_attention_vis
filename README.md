@@ -32,7 +32,7 @@ Just convert it to numpy array like this 👇
 ```python
 from transformer_attention_visualization import make_attention_map_mh
 
-# build an attetion matrixs as torch-output like
+# build attetion matrixs as torch-output like
 token_num = 6
 case_num = 3
 layer_num = 2
@@ -57,7 +57,7 @@ from transformer_attention_visualization import *
 scale = 3
 canvas = np.zeros([120*scale,60*scale]).astype(np.float)
 
-# build an attetion matrixs as torch-output like
+# build attetion matrixs as torch-output like
 token_num = 6
 case_num = 3
 layer_num = 2
