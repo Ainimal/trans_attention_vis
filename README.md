@@ -91,7 +91,7 @@ def show2D(img2D, title = ''):
 case_index = 1
 layer_index = 1
 head_index = 1
-beta = 2  # much bigger, contrast gose much higher
+beta = 2  # much bigger, contrast goes much higher
 
 # show all token attention
 show2D(attention_vis2[layer_index][case_index][head_index][0]**beta, title='case%d layer%d head%d all token'%(case_index, layer_index,head_index))
