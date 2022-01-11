@@ -9,7 +9,6 @@ This is a super simple visualization toolbox (script) for transformer attention 
     <th>token 1</th>
     <th>token 2</th>
     <th>token 3</th>
-    <th>token 4</th>
     <th>···</th>
 </tr>
     
@@ -18,7 +17,6 @@ This is a super simple visualization toolbox (script) for transformer attention 
     <td><img src="https://github.com/WAMAWAMA/trans_attention_vis/blob/main/pic/1.jpg" height="300" width="170" alt="input images"></td>
     <td><img src="https://github.com/WAMAWAMA/trans_attention_vis/blob/main/pic/2.jpg" height="300" width="170" alt="input images"></td>
     <td><img src="https://github.com/WAMAWAMA/trans_attention_vis/blob/main/pic/3.jpg" height="300" width="170" alt="input images"></td>
-    <td><img src="https://github.com/WAMAWAMA/trans_attention_vis/blob/main/pic/4.jpg" height="300" width="170" alt="input images"></td>
         <th>···</th>
 </tr>
 
@@ -112,7 +110,6 @@ for i in range(token_num):
     <th>token 1</th>
     <th>token 2</th>
     <th>token 3</th>
-    <th>token 4</th>
     <th>···</th>
 </tr>
     
@@ -121,7 +118,6 @@ for i in range(token_num):
     <td><img src="https://github.com/WAMAWAMA/trans_attention_vis/blob/main/pic/1.jpg" height="300" width="170" alt="input images"></td>
     <td><img src="https://github.com/WAMAWAMA/trans_attention_vis/blob/main/pic/2.jpg" height="300" width="170" alt="input images"></td>
     <td><img src="https://github.com/WAMAWAMA/trans_attention_vis/blob/main/pic/3.jpg" height="300" width="170" alt="input images"></td>
-    <td><img src="https://github.com/WAMAWAMA/trans_attention_vis/blob/main/pic/4.jpg" height="300" width="170" alt="input images"></td>
         <th>···</th>
 </tr>
 
